@@ -13,7 +13,7 @@ class DebugFive3
         const int HIGH = 99;
         const int NUMINROW = 20;
         for (letter = 'A'; letter <= 'Z'; ++letter)
-            for (number = LOW; number < HIGH; ++number)
+            for (number = LOW; number <= HIGH; ++number)
             {
                 if (number % NUMINROW == 0)
                     WriteLine();
